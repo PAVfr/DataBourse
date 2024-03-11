@@ -12,8 +12,8 @@ path_sql = "db_bourse.sqlite3"
 cnx = sqlite3.Connection(path_sql)
 
 
-def exportCSV(name):
-	pandas.read_sql_query(f"""SELECT * FROM "{name}" """, cnx).to_csv(f"bdd_{name}.csv", encoding="utf-8")
+def exportCSV(name, index=False):
+	pandas.read_sql_query(f"""SELECT * FROM "{name}" """, cnx).to_csv(f"bdd_{name}.csv", index=index, encoding="utf-8")
 
 
 class Entreprise:
@@ -32,7 +32,7 @@ class Entreprise:
 				"PEA-PME"	INTEGER,
 				"ISIN"	TEXT NOT NULL UNIQUE,
 				"HREF_BOURSEDIRECT"	TEXT,
-				"HREF_RENDEMENTBOURSE"	TEXT,
+				"HREF_RENDEMENTBOURSE"	TEXT
 			);""")
 		cnx.commit()
 
@@ -110,12 +110,12 @@ class Dividende:
 
 
 if __name__ == '__main__':
-	# enterprise = Entreprise()
+	enterprise = Entreprise()
 	# enterprise.update_all_enterprise()
-	# exportCSV(enterprise.name)
+	exportCSV(enterprise.name)
 
 	dividende = Dividende()
-	dividende.update_all_dividend()
+	# dividende.update_all_dividend()
 	exportCSV(dividende.name)
 
 	cnx.close()
