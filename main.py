@@ -86,7 +86,7 @@ class Dividende:
 				"TICKER"	TEXT,
 				"EX_DIVIDEND"	TEXT,
 				"DATE_PAYEMENT"	TEXT,
-				"VALUE" REAL
+				"VALUE" TEXT
 			);""")
 		cnx.commit()
 
@@ -99,7 +99,7 @@ class Dividende:
 			for row in StockEvents.dividend.dividend_history(ticker=ticker):
 				ex_dividend = row.get('date_ex_dividend')
 				date_payement = row.get('date_payement')
-				value = row.get('value')
+				value = row.get('value') if "," in row.get('value') else row.get('value') + ",0"
 
 				# Ajoute la ligne dans la BDD si elle n'existe pas
 				if cursor.execute(f"""SELECT * FROM {self.name} WHERE "TICKER"="{ticker}" AND "EX_DIVIDEND"=date("{ex_dividend}") """).fetchone() is None:
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 	exportCSV(enterprise.name)
 
 	dividende = Dividende()
-	# dividende.update_all_dividend()
+	dividende.update_all_dividend()
 	exportCSV(dividende.name)
 
 	cnx.close()
