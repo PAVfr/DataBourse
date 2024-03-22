@@ -33,11 +33,11 @@ BALYO,BALYO,Industrie,1,FR0013258399,balyo-FR0013258399-BALYO-EUR-XPAR,/balyo-ba
 BLC,Bastide Le Confort Médical,Santé,1,FR0000035370,bastide-le-confort-medical-FR0000035370-BLC-EUR-XPAR,/blc-bastide-le-confort
 BLV,Believe,Consommation discrétionnaire,0,FR0014003FE9,believe-FR0014003FE9-BLV-EUR-XPAR,/blv-believe
 BEN,Bénéteau,Consommation discrétionnaire,0,FR0000035164,beneteau-FR0000035164-BEN-EUR-XPAR,/ben-beneteau
-BB,Bic,Consommation de base,0,FR0000120966,bic-FR0000120966-BB-EUR-XPAR,/bb-bic
+BB,BIC,Consommation de base,0,FR0000120966,bic-FR0000120966-BB-EUR-XPAR,/bb-bic
 BIG,Bigben Interactive,Technologies,1,FR0000074072,bigben-interactive-FR0000074072-BIG-EUR-XPAR,/big-bigben-interactive
 BIM,bioMérieux,Santé,0,FR0013280286,biomerieux-FR0013280286-BIM-EUR-XPAR,/bim-biomerieux
 BNP,BNP PARIBAS ACT.A,Finance,0,FR0000131104,bnp-paribas-act-a-FR0000131104-BNP-EUR-XPAR,/bnp-bnp-paribas
-BOI,BOIRON,Santé,1,FR0000061129,boiron-FR0000061129-BOI-EUR-XPAR,/boi-boiron
+BOI,Boiron,Santé,1,FR0000061129,boiron-FR0000061129-BOI-EUR-XPAR,/boi-boiron
 BOL,Bolloré SE,Télécommunications,0,FR0000039299,bollore-se-FR0000039299-BOL-EUR-XPAR,/bol-bollore
 BON,Bonduelle,Consommation de base,0,FR0000063935,bonduelle-FR0000063935-BON-EUR-XPAR,/bon-bonduelle
 EN,Bouygues SA,Industrie,0,FR0000120503,bouygues-sa-FR0000120503-EN-EUR-XPAR,/en-bouygues
@@ -53,9 +53,9 @@ CGM,Cegedim,Santé,0,FR0000053506,cegedim-FR0000053506-CGM-EUR-XPAR,/cgm-cegedim
 CGG,CGG,Energie,0,FR0013181864,cgg-FR0013181864-CGG-EUR-XPAR,/cgg-cgg
 CRI,Chargeurs,Consommation discrétionnaire,1,FR0000130692,chargeurs-FR0000130692-CRI-EUR-XPAR,/cri-chargeurs-sa
 CLA,Claranova SE,Technologies,1,FR0013426004,claranova-se-FR0013426004-CLA-EUR-XPAR,/cla-claranova
-COFA,COFACE,Finance,0,FR0010667147,coface-FR0010667147-COFA-EUR-XPAR,/cofa-coface
+COFA,Coface,Finance,0,FR0010667147,coface-FR0010667147-COFA-EUR-XPAR,/cofa-coface
 COV,COVIVIO,Immobilier,0,FR0000064578,covivio-FR0000064578-COV-EUR-XPAR,/cov-covivio
-ACA,CREDIT AGRICOLE,Finance,0,FR0000045072,credit-agricole-FR0000045072-ACA-EUR-XPAR,/aca-credit-agricole
+ACA,Crédit Agricole,Finance,0,FR0000045072,credit-agricole-FR0000045072-ACA-EUR-XPAR,/aca-credit-agricole
 BN,Danone,Consommation de base,0,FR0000120644,danone-FR0000120644-BN-EUR-XPAR,/bn-danone
 AM,Dassault Aviation,Industrie,0,FR0014004L86,dassault-aviation-FR0014004L86-AM-EUR-XPAR,/am-dassault-aviation-sa
 DSY,Dassault Systèmes SE,Technologies,0,FR0014003TT8,dassault-systemes-se-FR0014003TT8-DSY-EUR-XPAR,/dsy-dassault-systemes-sa
@@ -67,7 +67,7 @@ FGR,Eiffage S.A.,Industrie,0,FR0000130452,eiffage-s-a-FR0000130452-FGR-EUR-XPAR,
 EKI,Ekinops,Technologies,1,FR0011466069,ekinops-FR0011466069-EKI-EUR-XPAR,/eki-ekinops
 ELIOR,Elior Group,Consommation discrétionnaire,0,FR0011950732,elior-group-FR0011950732-ELIOR-EUR-XPAR,/elior-elior-group
 ELIS,Elis,Industrie,0,FR0012435121,elis-FR0012435121-ELIS-EUR-XPAR,/elis-elis
-ENGI,ENGIE,Services aux collectivités,0,FR0010208488,engie-FR0010208488-ENGI-EUR-XPAR,/engi-engie
+ENGI,Engie,Services aux collectivités,0,FR0010208488,engie-FR0010208488-ENGI-EUR-XPAR,/engi-engie
 EQS,Equasens,Santé,1,FR0012882389,equasens-FR0012882389-EQS-EUR-XPAR,/eqs-equasens
 ERA,Eramet,Matériaux,0,FR0000131757,eramet-FR0000131757-ERA-EUR-XPAR,/era-eramet
 EL,EssilorLuxottica,Santé,0,FR0000121667,essilorluxottica-FR0000121667-EL-EUR-XPAR,/el-essilorluxottica-sa
@@ -80,12 +80,12 @@ EXA,Exail Technologies,Industrie,1,FR0000062671,exail-technologies-FR0000062671-
 FALG,Fermentalg,Santé,1,FR0011271600,fermentalg-FR0011271600-FALG-EUR-XPAR,/falg-fermentalg
 FNAC,Fnac Darty,Consommation discrétionnaire,0,FR0011476928,fnac-darty-FR0011476928-FNAC-EUR-XPAR,/fnac-fnac-darty
 FORSE,Forsee Power,Industrie,1,FR0014005SB3,forsee-power-FR0014005SB3-FORSE-EUR-XPAR,/forse-forsee-power
-FRVIA,FORVIA SE,Consommation discrétionnaire,0,FR0000121147,forvia-se-FR0000121147-FRVIA-EUR-XPAR,/frvia-forvia
+FRVIA,Forvia,Consommation discrétionnaire,0,FR0000121147,forvia-se-FR0000121147-FRVIA-EUR-XPAR,/frvia-forvia
 FDE,La Française de l'Energie,Energie,1,FR0013030152,la-francaise-de-l-energie-FR0013030152-FDE-EUR-XPAR,/fde-francaise-energie
 GFC,GECINA,Immobilier,0,FR0010040865,gecina-FR0010040865-GFC-EUR-XPAR,/gfc-gecina-nom
 GNFT,GENFIT,Santé,1,FR0004163111,genfit-FR0004163111-GNFT-EUR-XPAR,/gnft-genfit
 SIGHT,GenSight Biologics S.A.,Santé,1,FR0013183985,gensight-biologics-s-a-FR0013183985-SIGHT-EUR-XPAR,/sight-gensight-biologics
-GET,Getlink SE,Industrie,1,FR0010533075,getlink-se-FR0010533075-GET-EUR-XPAR,/get-getlink-se
+GET,Getlink SE,Industrie,0,FR0010533075,getlink-se-FR0010533075-GET-EUR-XPAR,/get-getlink-se
 GLO,GL events,Industrie,1,FR0000066672,gl-events-FR0000066672-GLO-EUR-XPAR,/glo-gl-events-sa
 GRVO,Graines Voltz S.A.,Matériaux,1,FR0000065971,graines-voltz-s-a-FR0000065971-GRVO-EUR-XPAR,/grvo-voltz-graines
 SFPI,Groupe SFPI,Industrie,1,FR0004155000,groupe-sfpi-FR0004155000-SFPI-EUR-XPAR,/sfpi-groupe-sfpi
@@ -142,7 +142,7 @@ OLG,Olympique Lyonnais Groupe,Consommation discrétionnaire,0,FR0010428771,olymp
 ORA,Orange,Télécommunications,0,FR0000133308,orange-FR0000133308-ORA-EUR-XPAR,/ora-orange
 ORAP,ORAPI,Matériaux,1,FR0000075392,orapi-FR0000075392-ORAP-EUR-XPAR,/orap-orapi
 OREGE,Orège,Industrie,1,FR0010609206,orege-FR0010609206-OREGE-EUR-XPAR,/orege-orege
-ORP,ORPEA,Santé,0,FR0000184798,orpea-FR0000184798-ORP-EUR-XPAR,/orp-orpea
+ORP,Emeis (ex-Orpea),Santé,0,FR001400NLM4,orpea-FR0000184798-ORP-EUR-XPAR,/orp-orpea
 OSE,OSE Immunotherapeutics,Santé,1,FR0012127173,ose-immunotherapeutics-FR0012127173-OSE-EUR-XPAR,/ose-ose-immuno
 OVH,OVH Groupe,Technologies,1,FR0014005HJ9,ovh-groupe-FR0014005HJ9-OVH-EUR-XPAR,/ovh-ovh-group-sas
 PAR,PAREF,Immobilier,0,FR0010263202,paref-FR0010263202-PAR-EUR-XPAR,/par-paref
@@ -198,7 +198,7 @@ VANTI,Vantiva,Télécommunications,0,FR0013505062,vantiva-FR0013505062-VANTI-EUR
 VIE,Veolia Environnement,Services aux collectivités,0,FR0000124141,veolia-environnement-FR0000124141-VIE-EUR-XPAR,/vie-veolia-environnement
 VRLA,Verallia,Consommation discrétionnaire,0,FR0013447729,verallia-FR0013447729-VRLA-EUR-XPAR,/vrla-verallia
 VMX,Verimatrix,Technologies,1,FR0010291245,verimatrix-FR0010291245-VMX-EUR-XPAR,/vmx-verimatrix
-VETO,Vetoquinol SA,Santé,1,FR0004186856,vetoquinol-sa-FR0004186856-VETO-EUR-XPAR,/veto-vetoquinol
+VETO,Vetoquinol SA,Santé,0,FR0004186856,vetoquinol-sa-FR0004186856-VETO-EUR-XPAR,/veto-vetoquinol
 VCT,Vicat,Matériaux,0,FR0000031775,vicat-FR0000031775-VCT-EUR-XPAR,/vct-vicat
 DG,VINCI,Industrie,0,FR0000125486,vinci-FR0000125486-DG-EUR-XPAR,/dg-vinci
 VIRP,Virbac,Santé,1,FR0000031577,virbac-FR0000031577-VIRP-EUR-XPAR,/virp-virbac
