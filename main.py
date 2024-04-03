@@ -111,11 +111,11 @@ class Dividende:
 
 if __name__ == '__main__':
 	enterprise = Entreprise()
-	##enterprise.update_all_enterprise()
+	# enterprise.update_all_enterprise()
 	exportCSV(enterprise.name)
 
 	dividende = Dividende()
-	#dividende.update_all_dividend()
+	dividende.update_all_dividend()
 	exportCSV(dividende.name)
 
 	cnx.close()

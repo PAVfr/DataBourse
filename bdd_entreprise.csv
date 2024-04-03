@@ -1,6 +1,6 @@
 TICKER,NAME,SECTEUR,PEA-PME,ISIN,HREF_BOURSEDIRECT,HREF_RENDEMENTBOURSE
 AB,AB Science,Santé,1,FR0010557264,ab-science-FR0010557264-AB-EUR-XPAR,/ab-ab-science
-ABCA,ABC ARBITRAGE,Finance,1,FR0004040608,abc-arbitrage-FR0004040608-ABCA-EUR-XPAR,/abca-abc-arbitrage-sa
+ABCA,ABC Arbitrage,Finance,1,FR0004040608,abc-arbitrage-FR0004040608-ABCA-EUR-XPAR,/abca-abc-arbitrage-sa
 ABEO,ABEO SA,Consommation discrétionnaire,1,FR0013185857,abeo-sa-FR0013185857-ABEO-EUR-XPAR,/abeo-abeo
 ABNX,ABIONYX Pharma,Santé,1,FR0012616852,abionyx-pharma-FR0012616852-ABNX-EUR-XPAR,/abnx-abionyx-pharma
 ABVX,Abivax,Santé,1,FR0012333284,abivax-FR0012333284-ABVX-EUR-XPAR,/abvx-abivax
@@ -15,9 +15,9 @@ AKW,AKWEL,Consommation discrétionnaire,0,FR0000053027,akwel-FR0000053027-AKW-EU
 ALD,ALD,Industrie,0,FR0013258662,ald-FR0013258662-ALD-EUR-XPAR,/ald-ald
 CDA,Compagnie des Alpes,Consommation discrétionnaire,0,FR0000053324,compagnie-des-alpes-FR0000053324-CDA-EUR-XPAR,/cda-alpes-compagnie
 ALO,Alstom,Industrie,0,FR0010220475,alstom-FR0010220475-ALO-EUR-XPAR,/alo-alstom
-ALTA,ALTAREA,Immobilier,0,FR0000033219,altarea-FR0000033219-ALTA-EUR-XPAR,/alta-altarea
+ALTA,Altarea,Immobilier,0,FR0000033219,altarea-FR0000033219-ALTA-EUR-XPAR,/alta-altarea
 ATE,Alten,Technologies,0,FR0000071946,alten-FR0000071946-ATE-EUR-XPAR,/ate-alten
-AMUN,AMUNDI,Finance,0,FR0004125920,amundi-FR0004125920-AMUN-EUR-XPAR,/amun-amundi
+AMUN,Amundi,Finance,0,FR0004125920,amundi-FR0004125920-AMUN-EUR-XPAR,/amun-amundi
 ANTIN,ANTIN INFRASTRUCTURE PARTNERS,Finance,0,FR0014005AL0,antin-infrastructure-partners-FR0014005AL0-ANTIN-EUR-XPAR,/antin-antin-infrastructure-partners
 ARAMI,Aramis Group,Consommation discrétionnaire,0,FR0014003U94,aramis-group-FR0014003U94-ARAMI-EUR-XPAR,/arami-aramis-group
 AKE,Arkema,Matériaux,0,FR0010313833,arkema-FR0010313833-AKE-EUR-XPAR,/ake-arkema
@@ -29,14 +29,14 @@ AUB,Aubay,Technologies,0,FR0000063737,aubay-FR0000063737-AUB-EUR-XPAR,/aub-aubay
 AURE,AUREA,Industrie,1,FR0000039232,aurea-FR0000039232-AURE-EUR-XPAR,/aure-aurea
 AVT,Avenir Telecom,Technologies,1,FR001400CFI7,avenir-telecom-FR001400CFI7-AVT-EUR-XPAR,/avt-avenir-telecom
 CS,AXA,Finance,0,FR0000120628,axa-FR0000120628-CS-EUR-XPAR,/cs-axa
-BALYO,BALYO,Industrie,1,FR0013258399,balyo-FR0013258399-BALYO-EUR-XPAR,/balyo-balyo
+BALYO,Balyo,Industrie,1,FR0013258399,balyo-FR0013258399-BALYO-EUR-XPAR,/balyo-balyo
 BLC,Bastide Le Confort Médical,Santé,1,FR0000035370,bastide-le-confort-medical-FR0000035370-BLC-EUR-XPAR,/blc-bastide-le-confort
 BLV,Believe,Consommation discrétionnaire,0,FR0014003FE9,believe-FR0014003FE9-BLV-EUR-XPAR,/blv-believe
 BEN,Bénéteau,Consommation discrétionnaire,0,FR0000035164,beneteau-FR0000035164-BEN-EUR-XPAR,/ben-beneteau
 BB,BIC,Consommation de base,0,FR0000120966,bic-FR0000120966-BB-EUR-XPAR,/bb-bic
 BIG,Bigben Interactive,Technologies,1,FR0000074072,bigben-interactive-FR0000074072-BIG-EUR-XPAR,/big-bigben-interactive
 BIM,bioMérieux,Santé,0,FR0013280286,biomerieux-FR0013280286-BIM-EUR-XPAR,/bim-biomerieux
-BNP,BNP PARIBAS ACT.A,Finance,0,FR0000131104,bnp-paribas-act-a-FR0000131104-BNP-EUR-XPAR,/bnp-bnp-paribas
+BNP,BNP Paribas,Finance,0,FR0000131104,bnp-paribas-act-a-FR0000131104-BNP-EUR-XPAR,/bnp-bnp-paribas
 BOI,Boiron,Santé,1,FR0000061129,boiron-FR0000061129-BOI-EUR-XPAR,/boi-boiron
 BOL,Bolloré SE,Télécommunications,0,FR0000039299,bollore-se-FR0000039299-BOL-EUR-XPAR,/bol-bollore
 BON,Bonduelle,Consommation de base,0,FR0000063935,bonduelle-FR0000063935-BON-EUR-XPAR,/bon-bonduelle
@@ -149,7 +149,7 @@ PAR,PAREF,Immobilier,0,FR0010263202,paref-FR0010263202-PAR-EUR-XPAR,/par-paref
 PARRO,Parrot,Technologies,1,FR0004038263,parrot-FR0004038263-PARRO-EUR-XPAR,/parro-parrot
 RI,Pernod Ricard,Consommation de base,0,FR0000120693,pernod-ricard-FR0000120693-RI-EUR-XPAR,/ri-pernod-ricard-sa
 PERR,Gérard Perrier Industrie,Industrie,1,FR0000061459,gerard-perrier-industrie-FR0000061459-PERR-EUR-XPAR,/perr-perrier-gerard
-PEUG,PEUGEOT INVEST,Finance,0,FR0000064784,peugeot-invest-FR0000064784-PEUG-EUR-XPAR,/peug-peugeot-invest
+PEUG,Peugeot Invest,Finance,0,FR0000064784,peugeot-invest-FR0000064784-PEUG-EUR-XPAR,/peug-peugeot-invest
 VAC,Pierre & Vacances,Consommation discrétionnaire,0,FR0000073041,pierre-vacances-FR0000073041-VAC-EUR-XPAR,/vac-pierre-vacances
 PVL,Plastiques du Val-de-Loire,Consommation discrétionnaire,1,FR0013252186,plastiques-du-val-de-loire-FR0013252186-PVL-EUR-XPAR,/pvl-plast-val-loire
 POM,Compagnie Plastic Omnium SE,Consommation discrétionnaire,0,FR0000124570,compagnie-plastic-omnium-se-FR0000124570-POM-EUR-XPAR,/pom-plastic-omnium
@@ -173,7 +173,7 @@ SEFER,SergeFerrari Group,Industrie,1,FR0011950682,sergeferrari-group-FR001195068
 SRP,SRP Groupe,Consommation discrétionnaire,1,FR0013006558,srp-groupe-FR0013006558-SRP-EUR-XPAR,/srp-showroomprive
 SII,SII,Technologies,0,FR0000074122,sii-FR0000074122-SII-EUR-XPAR,/sii-sii
 SMCP,SMCP S.A,Consommation discrétionnaire,0,FR0013214145,smcp-s-a-FR0013214145-SMCP-EUR-XPAR,/smcp-smcp
-GLE,SOCIETE GENERALE,Finance,0,FR0000130809,societe-generale-FR0000130809-GLE-EUR-XPAR,/gle-societe-generale
+GLE,Société Générale,Finance,0,FR0000130809,societe-generale-FR0000130809-GLE-EUR-XPAR,/gle-societe-generale
 SW,Sodexo,Industrie,0,FR0000121220,sodexo-FR0000121220-SW-EUR-XPAR,/sw-sodexo
 SOI,Soitec,Technologies,0,FR0013227113,soitec-FR0013227113-SOI-EUR-XPAR,/soi-soitec
 LOCAL,SoLocal Group,Télécommunications,1,FR00140006O9,solocal-group-FR00140006O9-LOCAL-EUR-XPAR,/local-solocal-group
@@ -200,12 +200,12 @@ VRLA,Verallia,Consommation discrétionnaire,0,FR0013447729,verallia-FR0013447729
 VMX,Verimatrix,Technologies,1,FR0010291245,verimatrix-FR0010291245-VMX-EUR-XPAR,/vmx-verimatrix
 VETO,Vetoquinol SA,Santé,0,FR0004186856,vetoquinol-sa-FR0004186856-VETO-EUR-XPAR,/veto-vetoquinol
 VCT,Vicat,Matériaux,0,FR0000031775,vicat-FR0000031775-VCT-EUR-XPAR,/vct-vicat
-DG,VINCI,Industrie,0,FR0000125486,vinci-FR0000125486-DG-EUR-XPAR,/dg-vinci
+DG,Vinci,Industrie,0,FR0000125486,vinci-FR0000125486-DG-EUR-XPAR,/dg-vinci
 VIRP,Virbac,Santé,1,FR0000031577,virbac-FR0000031577-VIRP-EUR-XPAR,/virp-virbac
 VIV,Vivendi SE,Télécommunications,0,FR0000127771,vivendi-se-FR0000127771-VIV-EUR-XPAR,/viv-vivendi
 VLTSA,Voltalia SA,Services aux collectivités,0,FR0011995588,voltalia-sa-FR0011995588-VLTSA-EUR-XPAR,/vltsa-voltalia
 VRAP,Vranken-Pommery Monopole,Consommation de base,1,FR0000062796,vranken-pommery-monopole-FR0000062796-VRAP-EUR-XPAR,/vrap-vranken-pommery
 WAVE,Wavestone,Technologies,1,FR0013357621,wavestone-FR0013357621-WAVE-EUR-XPAR,/wave-wavestone
-MF,WENDEL,Finance,0,FR0000121204,wendel-FR0000121204-MF-EUR-XPAR,/mf-wendel
+MF,Wendel,Finance,0,FR0000121204,wendel-FR0000121204-MF-EUR-XPAR,/mf-wendel
 WLN,Worldline,Technologies,0,FR0011981968,worldline-FR0011981968-WLN-EUR-XPAR,/wln-worldline-sa
 XIL,Xilam Animation,Télécommunications,1,FR0004034072,xilam-animation-FR0004034072-XIL-EUR-XPAR,/xil-xilam-animation
