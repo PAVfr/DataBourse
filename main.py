@@ -1,4 +1,3 @@
-
 from bourseDirect import BourseDirect
 from rendementbourse import RendementBourse
 from stockevents import StockEvents
@@ -31,6 +30,7 @@ class Entreprise:
 				"SECTEUR"	TEXT,
 				"PEA-PME"	INTEGER,
 				"ISIN"	TEXT NOT NULL UNIQUE,
+				"INDICE"	TEXT,
 				"HREF_BOURSEDIRECT"	TEXT,
 				"HREF_RENDEMENTBOURSE"	TEXT
 			);""")
@@ -41,36 +41,43 @@ class Entreprise:
 		secteurs = RendementBourse.sector.all_sector()
 		peapme = [v.ticker for v in BourseDirect.PEA_PME()]
 
-		for line in BourseDirect.CAC_ALL_TRADABLE():
-			# Ignore les entreprises en Europe
-			if not line.isin.startswith("FR"):
-				continue
-			# PEA-PME
-			PEAPME = 0 if line.ticker not in peapme else 1
-			# SECTEUR & HREF_RENDEMENTBOURSE
-			secteur = None
-			href_rendementbourse = None
-			for keys, lines in secteurs.items():
-				for value in lines:
-					value: ResultSectorRDM
-					if line.ticker == value.ticker:
-						secteur = value.sector
-						href_rendementbourse = value.href
-						break
-			# DONNEES
-			cursor.execute(f"""SELECT * FROM {self.name} WHERE "TICKER"="{line.ticker}" """)
-			if cursor.fetchone() is None:  # Ajoute la ligne si n'existe pas, sinon met à jour les données
-				cursor.execute(f"""
-					INSERT INTO {self.name} ("TICKER", "NAME", "SECTEUR", "PEA-PME", "ISIN", "HREF_BOURSEDIRECT", "HREF_RENDEMENTBOURSE") 
-					VALUES("{line.ticker}", "{line.name}", "{secteur}", {PEAPME}, "{line.isin}", "{line.slug}", "{href_rendementbourse}")""")
-				cnx.commit()
-			else:
-				cursor.execute(f"""
-					UPDATE "{self.name}" 
-					SET "ISIN"="{line.isin}", "SECTEUR"="{secteur}", "PEA-PME"={PEAPME}, "HREF_RENDEMENTBOURSE"="{href_rendementbourse}" 
-					WHERE "TICKER"="{line.ticker}"
-					""")
-				cnx.commit()
+		for indice, lines in {
+			"CAC_40": BourseDirect.CAC_40(),
+			"CAC_NEXT_20": BourseDirect.CAC_NEXT_20(),
+			"CAC_MID_60": BourseDirect.CAC_MID_60(),
+			"CAC_SMALL": BourseDirect.CAC_SMALL()
+			}.items():
+
+			for line in lines:
+				# Ignore les entreprises en Europe
+				if not line.isin.startswith("FR"):
+					continue
+				# PEA-PME
+				PEAPME = 0 if line.ticker not in peapme else 1
+				# SECTEUR & HREF_RENDEMENTBOURSE
+				secteur = None
+				href_rendementbourse = None
+				for keys, lines in secteurs.items():
+					for value in lines:
+						value: ResultSectorRDM
+						if line.ticker == value.ticker:
+							secteur = value.sector
+							href_rendementbourse = value.href
+							break
+				# DONNEES
+				cursor.execute(f"""SELECT * FROM {self.name} WHERE "TICKER"="{line.ticker}" """)
+				if cursor.fetchone() is None:  # Ajoute la ligne si n'existe pas, sinon met à jour les données
+					cursor.execute(f"""
+						INSERT INTO {self.name} ("TICKER", "NAME", "SECTEUR", "PEA-PME", "ISIN", "INDICE", "HREF_BOURSEDIRECT", "HREF_RENDEMENTBOURSE") 
+						VALUES("{line.ticker}", "{line.name}", "{secteur}", {PEAPME}, "{line.isin}", "{indice}", "{line.slug}", "{href_rendementbourse}")""")
+					cnx.commit()
+				else:
+					cursor.execute(f"""
+						UPDATE "{self.name}" 
+						SET "ISIN"="{line.isin}", "SECTEUR"="{secteur}", "PEA-PME"={PEAPME}, "INDICE"="{indice}", "HREF_BOURSEDIRECT"="{line.slug}", "HREF_RENDEMENTBOURSE"="{href_rendementbourse}" 
+						WHERE "TICKER"="{line.ticker}"
+						""")
+					cnx.commit()
 
 
 class Dividende:
@@ -102,7 +109,8 @@ class Dividende:
 				value = row.get('value') if "," in row.get('value') else row.get('value') + ",0"
 
 				# Ajoute la ligne dans la BDD si elle n'existe pas
-				if cursor.execute(f"""SELECT * FROM {self.name} WHERE "TICKER"="{ticker}" AND "EX_DIVIDEND"=date("{ex_dividend}") """).fetchone() is None:
+				if cursor.execute(
+						f"""SELECT * FROM {self.name} WHERE "TICKER"="{ticker}" AND "EX_DIVIDEND"=date("{ex_dividend}") """).fetchone() is None:
 					cursor.execute(f"""
 						INSERT INTO {self.name} ("TICKER", "EX_DIVIDEND", "DATE_PAYEMENT", "VALUE")
 						VALUES("{ticker}", "{ex_dividend}", "{date_payement}", "{value}")""")
@@ -111,11 +119,11 @@ class Dividende:
 
 if __name__ == '__main__':
 	enterprise = Entreprise()
-	# enterprise.update_all_enterprise()
+	enterprise.update_all_enterprise()
 	exportCSV(enterprise.name)
 
-	dividende = Dividende()
-	dividende.update_all_dividend()
-	exportCSV(dividende.name)
+	# dividende = Dividende()
+	# dividende.update_all_dividend()
+	# exportCSV(dividende.name)
 
 	cnx.close()

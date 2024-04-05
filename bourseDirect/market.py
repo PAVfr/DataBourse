@@ -12,6 +12,7 @@ class Market:
 
 	@classmethod
 	def CAC_40(cls):
+		"""Le CAC 40 reflète la performance des 40 actions les plus importantes."""
 		data = Options.requestJson(
 			"https://www.boursedirect.fr/api/instrument/list/europe.france.components.cac-40-FR0003500008-PX1-EUR-XPAR")
 		return [ResultMarket(v) for v in data.get("instruments")]
@@ -32,6 +33,10 @@ class Market:
 
 	@classmethod
 	def CAC_MID_60(cls):
+		"""
+		Le CAC Mid 60 regroupe soixante entreprises d'importance nationale ou européenne.
+		Il suit immédiatement le CAC 40 et le CAC Next 20 et forme avec eux le SBF 120.
+		"""
 		data = Options.requestJson(
 			"https://www.boursedirect.fr/api/instrument/list/europe.france.components.cac-mid-60-QS0010989117-CACMD-EUR-XPAR")
 		return [ResultMarket(v) for v in data.get("instruments")]
@@ -50,6 +55,9 @@ class Market:
 
 	@classmethod
 	def CAC_NEXT_20(cls):
+		"""
+		Le CAC Next 20 regroupe les vingt valeurs dont l'importance arrive après le CAC 40.
+		"""
 		data = Options.requestJson(
 			"https://www.boursedirect.fr/api/instrument/list/europe.france.components.cac-next-20-QS0010989109-CN20-EUR-XPAR")
 		return [ResultMarket(v) for v in data.get("instruments")]
