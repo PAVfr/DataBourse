@@ -111,7 +111,11 @@ class Dividende:
 			);""")
 		cnx.commit()
 
-	def update_all_dividend(self):
+	def update_all_dividend(self, ignore_future: bool = False):
+		"""
+		:param ignore_future: inscit ou non les dividendes future à aujourd'hui
+		:return:
+		"""
 		cursor = cnx.cursor()
 		cursor.execute(f"""SELECT "TICKER" FROM {Entreprise.name} ORDER BY "TICKER" ASC""")
 		cursor.row_factory = lambda cursor, row: row[0]  # Manipulation pour ne pas avoir un Tuple en retour
@@ -121,6 +125,11 @@ class Dividende:
 				ex_dividend = row.get('date_ex_dividend')
 				date_payement = row.get('date_payement')
 				value = row.get('value') if "," in row.get('value') else row.get('value') + ",0"
+
+				# Ignore Future Dividende
+				if ignore_future:
+					if datetime.date.today() < datetime.datetime.strptime(ex_dividend, "%Y-%m-%d").date():
+						continue
 
 				# Ajoute la ligne dans la BDD si elle n'existe pas
 				if cursor.execute(
@@ -137,7 +146,7 @@ if __name__ == '__main__':
 	exportCSV(enterprise.name)
 
 	dividende = Dividende()
-	dividende.update_all_dividend()
+	dividende.update_all_dividend(ignore_future=True)
 	exportCSV(dividende.name)
 
 	cnx.close()
