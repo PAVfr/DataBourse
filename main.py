@@ -40,6 +40,7 @@ class Entreprise:
 		cursor = cnx.cursor()
 		secteurs = RendementBourse.sector.all_sector()
 		peapme = [v.ticker for v in BourseDirect.PEA_PME()]
+		tickers = []
 
 		for indice, lines in {
 			"CAC_40": BourseDirect.CAC_40(),
@@ -64,6 +65,8 @@ class Entreprise:
 							secteur = value.sector
 							href_rendementbourse = value.href
 							break
+				# TICKERS - Ajout dans la liste "tickers"
+				tickers.append(line.ticker)
 				# DONNEES
 				cursor.execute(f"""SELECT * FROM {self.name} WHERE "TICKER"="{line.ticker}" """)
 				if cursor.fetchone() is None:  # Ajoute la ligne si n'existe pas, sinon met à jour les données
@@ -78,6 +81,17 @@ class Entreprise:
 						WHERE "TICKER"="{line.ticker}"
 						""")
 					cnx.commit()
+		# CHECKLIST TICKERS
+		cursor.execute(f"""SELECT "TICKER" FROM "{self.name}" """)
+		cursor.row_factory = lambda cursor, row: row[0]  # Manipulation pour ne pas avoir un Tuple en retour
+		for ticker in cursor.fetchall():
+			if ticker not in tickers:
+				print("CHECKLIST TICKERS DELETE = ", ticker)
+				# # recherche le "rowid" de la ligne
+				# cursor.execute(f"""SELECT rowid, * FROM "{self.name}" WHERE "TICKER"="{ticker}" """)
+				# # supprime la ligne
+				# cursor.execute(f"""DELETE FROM "main"."{self.name}" WHERE _rowid_ IN ('{cursor.fetchone()}') """)
+				# # cursor.execute(f"""DELETE FROM {self.name} WHERE rowid={cursor.fetchone()} """)
 
 
 class Dividende:
@@ -122,8 +136,8 @@ if __name__ == '__main__':
 	enterprise.update_all_enterprise()
 	exportCSV(enterprise.name)
 
-	# dividende = Dividende()
-	# dividende.update_all_dividend()
-	# exportCSV(dividende.name)
+	dividende = Dividende()
+	dividende.update_all_dividend()
+	exportCSV(dividende.name)
 
 	cnx.close()
