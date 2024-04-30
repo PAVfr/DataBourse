@@ -151,7 +151,7 @@ PERR,Gérard Perrier Industrie,Industrie,1,FR0000061459,CAC_SMALL,gerard-perrier
 PEUG,Peugeot Invest,Finance,0,FR0000064784,CAC_SMALL,peugeot-invest-FR0000064784-PEUG-EUR-XPAR,/peug-peugeot-invest
 VAC,Pierre & Vacances,Consommation discrétionnaire,0,FR0000073041,CAC_SMALL,pierre-vacances-FR0000073041-VAC-EUR-XPAR,/vac-pierre-vacances
 PVL,Plastiques du Val-de-Loire,Consommation discrétionnaire,1,FR0013252186,CAC_SMALL,plastiques-du-val-de-loire-FR0013252186-PVL-EUR-XPAR,/pvl-plast-val-loire
-POM,Compagnie Plastic Omnium SE,Consommation discrétionnaire,0,FR0000124570,CAC_MID_60,compagnie-plastic-omnium-se-FR0000124570-POM-EUR-XPAR,/pom-plastic-omnium
+POM,Compagnie Plastic Omnium SE,Consommation discrétionnaire,0,FR0000124570,CAC_MID_60,opmobility-se-FR0000124570-POM-EUR-XPAR,/pom-plastic-omnium
 POXEL,Poxel,Santé,1,FR0012432516,CAC_SMALL,poxel-FR0012432516-POXEL-EUR-XPAR,/poxel-poxel-sa
 PWG,Prodways Group,Industrie,1,FR0012613610,CAC_SMALL,prodways-group-FR0012613610-PWG-EUR-XPAR,/pwg-prodways
 PUB,Publicis Groupe SA,Télécommunications,0,FR0000130577,CAC_40,publicis-groupe-sa-FR0000130577-PUB-EUR-XPAR,/pub-publicis-groupe-sa
@@ -196,7 +196,7 @@ VANTI,Vantiva,Télécommunications,0,FR0013505062,CAC_SMALL,vantiva-FR0013505062
 VIE,Veolia Environnement,Services aux collectivités,0,FR0000124141,CAC_40,veolia-environnement-FR0000124141-VIE-EUR-XPAR,/vie-veolia-environnement
 VRLA,Verallia,Consommation discrétionnaire,0,FR0013447729,CAC_MID_60,verallia-FR0013447729-VRLA-EUR-XPAR,/vrla-verallia
 VMX,Verimatrix,Technologies,1,FR0010291245,CAC_SMALL,verimatrix-FR0010291245-VMX-EUR-XPAR,/vmx-verimatrix
-VETO,Vetoquinol SA,Santé,1,FR0004186856,CAC_SMALL,vetoquinol-sa-FR0004186856-VETO-EUR-XPAR,/veto-vetoquinol
+VETO,Vetoquinol SA,Santé,0,FR0004186856,CAC_SMALL,vetoquinol-sa-FR0004186856-VETO-EUR-XPAR,/veto-vetoquinol
 VCT,Vicat,Matériaux,0,FR0000031775,CAC_SMALL,vicat-FR0000031775-VCT-EUR-XPAR,/vct-vicat
 DG,Vinci,Industrie,0,FR0000125486,CAC_40,vinci-FR0000125486-DG-EUR-XPAR,/dg-vinci
 VIRP,Virbac,Santé,1,FR0000031577,CAC_MID_60,virbac-FR0000031577-VIRP-EUR-XPAR,/virp-virbac

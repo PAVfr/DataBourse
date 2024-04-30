@@ -127,9 +127,8 @@ class Dividende:
 				value = row.get('value') if "," in row.get('value') else row.get('value') + ",0"
 
 				# Ignore Future Dividende
-				if ignore_future:
-					if datetime.date.today() < datetime.datetime.strptime(ex_dividend, "%Y-%m-%d").date():
-						continue
+				if ignore_future and datetime.date.today() < datetime.datetime.strptime(ex_dividend, "%Y-%m-%d").date():
+					continue
 
 				# Ajoute la ligne dans la BDD si elle n'existe pas
 				if cursor.execute(
