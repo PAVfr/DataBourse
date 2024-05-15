@@ -50,7 +50,7 @@ CO,"Casino, Guichard-Perrachon SA",Consommation de base,0,FR0000125585,CAC_MID_6
 CATG,Catana Group,Consommation discrétionnaire,1,FR0010193052,CAC_SMALL,catana-group-FR0010193052-CATG-EUR-XPAR,/catg-catana-group
 CBOT,CBO TERRITORIA,Immobilier,1,FR0010193979,CAC_SMALL,cbo-territoria-FR0010193979-CBOT-EUR-XPAR,/cbot-cbo-territoria-sa
 CGM,Cegedim,Santé,0,FR0000053506,CAC_SMALL,cegedim-FR0000053506-CGM-EUR-XPAR,/cgm-cegedim
-CGG,CGG,Energie,0,FR0013181864,CAC_MID_60,cgg-FR0013181864-CGG-EUR-XPAR,/cgg-cgg
+CGG,CGG,Energie,0,FR0013181864,CAC_MID_60,viridien-FR0013181864-CGG-EUR-XPAR,/cgg-cgg
 CRI,Chargeurs,Consommation discrétionnaire,1,FR0000130692,CAC_SMALL,chargeurs-FR0000130692-CRI-EUR-XPAR,/cri-chargeurs-sa
 CLA,Claranova SE,Technologies,1,FR0013426004,CAC_SMALL,claranova-se-FR0013426004-CLA-EUR-XPAR,/cla-claranova
 COFA,Coface,Finance,0,FR0010667147,CAC_MID_60,coface-FR0010667147-COFA-EUR-XPAR,/cofa-coface
@@ -195,7 +195,7 @@ VANTI,Vantiva,Télécommunications,0,FR0013505062,CAC_SMALL,vantiva-FR0013505062
 VIE,Veolia Environnement,Services aux collectivités,0,FR0000124141,CAC_40,veolia-environnement-FR0000124141-VIE-EUR-XPAR,/vie-veolia-environnement
 VRLA,Verallia,Consommation discrétionnaire,0,FR0013447729,CAC_MID_60,verallia-FR0013447729-VRLA-EUR-XPAR,/vrla-verallia
 VMX,Verimatrix,Technologies,1,FR0010291245,CAC_SMALL,verimatrix-FR0010291245-VMX-EUR-XPAR,/vmx-verimatrix
-VETO,Vetoquinol SA,Santé,0,FR0004186856,CAC_SMALL,vetoquinol-sa-FR0004186856-VETO-EUR-XPAR,/veto-vetoquinol
+VETO,Vetoquinol SA,Santé,1,FR0004186856,CAC_SMALL,vetoquinol-sa-FR0004186856-VETO-EUR-XPAR,/veto-vetoquinol
 VCT,Vicat,Matériaux,0,FR0000031775,CAC_SMALL,vicat-FR0000031775-VCT-EUR-XPAR,/vct-vicat
 DG,Vinci,Industrie,0,FR0000125486,CAC_40,vinci-FR0000125486-DG-EUR-XPAR,/dg-vinci
 VIRP,Virbac,Santé,1,FR0000031577,CAC_MID_60,virbac-FR0000031577-VIRP-EUR-XPAR,/virp-virbac
