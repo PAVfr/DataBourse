@@ -130,7 +130,7 @@ MERY,MERCIALYS,Immobilier,0,FR0010241638,CAC_MID_60,mercialys-FR0010241638-MERY-
 MRN,Mersen,Industrie,0,FR0000039620,CAC_MID_60,mersen-FR0000039620-MRN-EUR-XPAR,/mrn-mersen
 METEX,METabolic EXplorer,Matériaux,1,FR0004177046,CAC_SMALL,metabolic-explorer-FR0004177046-METEX-EUR-XPAR,/metex-metabolic-explorer
 MMT,Métropole Télévision,Télécommunications,0,FR0000053225,CAC_MID_60,metropole-television-FR0000053225-MMT-EUR-XPAR,/mmt-metropole-tv
-ML,Compagnie Générale des Etablissements Michelin,Consommation discrétionnaire,0,FR001400AJ45,CAC_40,compagnie-generale-des-etablissements-michelin-FR001400AJ45-ML-EUR-XPAR,/ml-michelin
+ML,Michelin,Consommation discrétionnaire,0,FR001400AJ45,CAC_40,compagnie-generale-des-etablissements-michelin-FR001400AJ45-ML-EUR-XPAR,/ml-michelin
 MHM,MYHOTELMATCH,Immobilier,1,FR001400IE67,CAC_SMALL,myhotelmatch-FR001400IE67-MHM-EUR-XPAR,/mhm-myhotelmatch
 NACON,NACON,Télécommunications,1,FR0013482791,CAC_SMALL,nacon-FR0013482791-NACON-EUR-XPAR,/nacon-nacon
 NANO,Nanobiotix,Santé,1,FR0011341205,CAC_SMALL,nanobiotix-FR0011341205-NANO-EUR-XPAR,/nano-nanobiotix
@@ -206,3 +206,14 @@ WAVE,Wavestone,Technologies,1,FR0013357621,CAC_SMALL,wavestone-FR0013357621-WAVE
 MF,Wendel,Finance,0,FR0000121204,CAC_MID_60,wendel-FR0000121204-MF-EUR-XPAR,/mf-wendel
 WLN,Worldline,Technologies,0,FR0011981968,CAC_40,worldline-FR0011981968-WLN-EUR-XPAR,/wln-worldline-sa
 XIL,Xilam Animation,Télécommunications,1,FR0004034072,CAC_SMALL,xilam-animation-FR0004034072-XIL-EUR-XPAR,/xil-xilam-animation
+AIR,Airbus SE,Industrie,0,NL0000235190,CAC_40,airbus-se-NL0000235190-AIR-EUR-XPAR,/air-airbus-se
+MT,ArcelorMittal,None,0,LU1598757687,CAC_40,arcelormittal-LU1598757687-MT-EUR-XAMS,None
+STLAP,Stellantis N.V.,Consommation discrétionnaire,0,NL00150001Q9,CAC_40,stellantis-n-v-NL00150001Q9-STLAP-EUR-XPAR,/stla-stellantis
+STMPA,STMicroelectronics N.V.,Technologies,0,NL0000226223,CAC_40,stmicroelectronics-n-v-NL0000226223-STMPA-EUR-XPAR,/stm-stmicroelectronics
+ENX,EURONEXT,Finance,0,NL0006294274,CAC_NEXT_20,euronext-NL0006294274-ENX-EUR-XPAR,/enx-euronext
+SESG,SES S.A.,Télécommunications,0,LU0088087324,CAC_MID_60,ses-s-a-LU0088087324-SESG-EUR-XPAR,/sesg-ses-sa-fdr-class-a
+SOLB,Solvay SA,None,0,BE0003470755,CAC_NEXT_20,solvay-sa-BE0003470755-SOLB-EUR-XBRU,None
+APAM,Aperam S.A.,None,0,LU0569974404,CAC_MID_60,aperam-s-a-LU0569974404-APAM-EUR-XAMS,None
+TE,Technip Energies N.V.,Energie,0,NL0014559478,CAC_MID_60,technip-energies-n-v-NL0014559478-TE-EUR-XPAR,/te-technip-energies
+GNRO,GeNeuro SA,Santé,0,CH0308403085,CAC_SMALL,geneuro-sa-CH0308403085-GNRO-EUR-XPAR,/gnro-geneuro
+XFAB,X-FAB Silicon Foundries SE,Technologies,1,BE0974310428,CAC_SMALL,x-fab-silicon-foundries-se-BE0974310428-XFAB-EUR-XPAR,/xfab-x-fab

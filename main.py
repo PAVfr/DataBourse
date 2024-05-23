@@ -51,8 +51,8 @@ class Entreprise:
 
 			for line in lines:
 				# Ignore les entreprises en Europe
-				if not line.isin.startswith("FR"):
-					continue
+				# if not line.isin.startswith("FR"):
+				# 	continue
 				# PEA-PME
 				PEAPME = 0 if line.ticker not in peapme else 1
 				# SECTEUR & HREF_RENDEMENTBOURSE
