@@ -143,7 +143,7 @@ OREGE,Orège,Industrie,1,FR0010609206,CAC_SMALL,orege-FR0010609206-OREGE-EUR-XPA
 ORP,Emeis (ex-Orpea),Santé,0,FR001400NLM4,CAC_MID_60,orpea-FR001400NLM4-ORP-EUR-XPAR,/orp-orpea
 OSE,OSE Immunotherapeutics,Santé,1,FR0012127173,CAC_SMALL,ose-immunotherapeutics-FR0012127173-OSE-EUR-XPAR,/ose-ose-immuno
 OVH,OVH Groupe,Technologies,1,FR0014005HJ9,CAC_SMALL,ovh-groupe-FR0014005HJ9-OVH-EUR-XPAR,/ovh-ovh-group-sas
-PAR,PAREF,Immobilier,0,FR0010263202,CAC_SMALL,paref-FR0010263202-PAR-EUR-XPAR,/par-paref
+PAR,PAREF,None,0,FR0010263202,CAC_SMALL,paref-FR0010263202-PAR-EUR-XPAR,None
 PARRO,Parrot,Technologies,1,FR0004038263,CAC_SMALL,parrot-FR0004038263-PARRO-EUR-XPAR,/parro-parrot
 RI,Pernod Ricard,Consommation de base,0,FR0000120693,CAC_40,pernod-ricard-FR0000120693-RI-EUR-XPAR,/ri-pernod-ricard-sa
 PERR,Gérard Perrier Industrie,Industrie,1,FR0000061459,CAC_SMALL,gerard-perrier-industrie-FR0000061459-PERR-EUR-XPAR,/perr-perrier-gerard
