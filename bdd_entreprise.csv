@@ -3,7 +3,7 @@ AB,AB Science,Santé,1,FR0010557264,CAC_SMALL,ab-science-FR0010557264-AB-EUR-XPA
 ABCA,ABC Arbitrage,Finance,1,FR0004040608,CAC_SMALL,abc-arbitrage-FR0004040608-ABCA-EUR-XPAR,/abca-abc-arbitrage-sa
 ABEO,ABEO SA,Consommation discrétionnaire,1,FR0013185857,CAC_SMALL,abeo-sa-FR0013185857-ABEO-EUR-XPAR,/abeo-abeo
 ABNX,ABIONYX Pharma,Santé,1,FR0012616852,CAC_SMALL,abionyx-pharma-FR0012616852-ABNX-EUR-XPAR,/abnx-abionyx-pharma
-ABVX,Abivax,Santé,0,FR0012333284,CAC_SMALL,abivax-FR0012333284-ABVX-EUR-XPAR,/abvx-abivax
+ABVX,Abivax,Santé,1,FR0012333284,CAC_SMALL,abivax-FR0012333284-ABVX-EUR-XPAR,/abvx-abivax
 AC,Accor,Consommation discrétionnaire,0,FR0000120404,CAC_NEXT_20,accor-FR0000120404-AC-EUR-XPAR,/ac-accor
 EOS,Acteos,Technologies,1,FR0000076861,CAC_SMALL,acteos-FR0000076861-EOS-EUR-XPAR,/eos-acteos
 ADOC,Adocia,Santé,1,FR0011184241,CAC_SMALL,adocia-FR0011184241-ADOC-EUR-XPAR,/adoc-adocia
@@ -64,7 +64,7 @@ DKUPL,Dékuple,Télécommunications,1,FR0000062978,CAC_SMALL,dekuple-FR000006297
 DBG,Derichebourg,Industrie,0,FR0000053381,CAC_MID_60,derichebourg-FR0000053381-DBG-EUR-XPAR,/dbg-derichebourg-sa
 EDEN,Edenred SE,Finance,0,FR0010908533,CAC_NEXT_20,edenred-se-FR0010908533-EDEN-EUR-XPAR,/eden-edenred
 FGR,Eiffage S.A.,Industrie,0,FR0000130452,CAC_NEXT_20,eiffage-s-a-FR0000130452-FGR-EUR-XPAR,/fgr-eiffage
-EKI,Ekinops,Technologies,0,FR0011466069,CAC_SMALL,ekinops-FR0011466069-EKI-EUR-XPAR,/eki-ekinops
+EKI,Ekinops,Technologies,1,FR0011466069,CAC_SMALL,ekinops-FR0011466069-EKI-EUR-XPAR,/eki-ekinops
 ELIOR,Elior Group,Consommation discrétionnaire,0,FR0011950732,CAC_MID_60,elior-group-FR0011950732-ELIOR-EUR-XPAR,/elior-elior-group
 ELIS,Elis,Industrie,0,FR0012435121,CAC_MID_60,elis-FR0012435121-ELIS-EUR-XPAR,/elis-elis
 ENGI,Engie,Services aux collectivités,0,FR0010208488,CAC_40,engie-FR0010208488-ENGI-EUR-XPAR,/engi-engie
@@ -91,7 +91,7 @@ SFPI,Groupe SFPI,Industrie,1,FR0004155000,CAC_SMALL,groupe-sfpi-FR0004155000-SFP
 GTT,Gaztransport & Technigaz,Energie,0,FR0011726835,CAC_MID_60,gaztransport-technigaz-FR0011726835-GTT-EUR-XPAR,/gtt-gaztransport-technigaz
 GBT,Guerbet,Santé,1,FR0000032526,CAC_SMALL,guerbet-FR0000032526-GBT-EUR-XPAR,/gbt-guerbet
 GUI,Guillemot Corporation,Technologies,0,FR0000066722,CAC_SMALL,guillemot-corporation-FR0000066722-GUI-EUR-XPAR,/gui-guillemot
-PIG,Haulotte Group,Industrie,0,FR0000066755,CAC_SMALL,haulotte-group-FR0000066755-PIG-EUR-XPAR,/pig-haulotte-group
+PIG,Haulotte Group,Industrie,1,FR0000066755,CAC_SMALL,haulotte-group-FR0000066755-PIG-EUR-XPAR,/pig-haulotte-group
 RMS,Hermès International,Consommation discrétionnaire,0,FR0000052292,CAC_40,hermes-international-FR0000052292-RMS-EUR-XPAR,/rms-hermes-international
 HCO,HighCo,Télécommunications,1,FR0000054231,CAC_SMALL,highco-FR0000054231-HCO-EUR-XPAR,/hco-highco-sa
 HDF,Hydrogène de France,Services aux collectivités,1,FR0014003VY4,CAC_SMALL,hydrogene-de-france-FR0014003VY4-HDF-EUR-XPAR,/hdf-hydrogene-france
@@ -124,7 +124,7 @@ MDM,Maisons du Monde,Consommation discrétionnaire,0,FR0013153541,CAC_SMALL,mais
 MTU,Manitou Group,Industrie,0,FR0000038606,CAC_SMALL,manitou-group-FR0000038606-MTU-EUR-XPAR,/mtu-manitou-bf
 MAU,Etablissements Maurel & Prom,Energie,1,FR0000051070,CAC_SMALL,etablissements-maurel-prom-FR0000051070-MAU-EUR-XPAR,/mau-maurel-et-prom
 MCPHY,McPhy Energy,Industrie,1,FR0011742329,CAC_SMALL,mcphy-energy-FR0011742329-MCPHY-EUR-XPAR,/mcphy-mcphy-energy
-MEDCL,MedinCell S.A.,Santé,0,FR0004065605,CAC_SMALL,medincell-s-a-FR0004065605-MEDCL-EUR-XPAR,/medcl-medincell
+MEDCL,MedinCell S.A.,Santé,1,FR0004065605,CAC_SMALL,medincell-s-a-FR0004065605-MEDCL-EUR-XPAR,/medcl-medincell
 MEMS,Memscap,Technologies,1,FR0010298620,CAC_SMALL,memscap-FR0010298620-MEMS-EUR-XPAR,/mems-memscap-regpt
 MERY,MERCIALYS,Immobilier,0,FR0010241638,CAC_MID_60,mercialys-FR0010241638-MERY-EUR-XPAR,/mery-mercialys
 MRN,Mersen,Industrie,0,FR0000039620,CAC_MID_60,mersen-FR0000039620-MRN-EUR-XPAR,/mrn-mersen
@@ -144,7 +144,7 @@ ORP,Emeis (ex-Orpea),Santé,0,FR001400NLM4,CAC_MID_60,orpea-FR001400NLM4-ORP-EUR
 OSE,OSE Immunotherapeutics,Santé,1,FR0012127173,CAC_SMALL,ose-immunotherapeutics-FR0012127173-OSE-EUR-XPAR,/ose-ose-immuno
 OVH,OVH Groupe,Technologies,1,FR0014005HJ9,CAC_SMALL,ovh-groupe-FR0014005HJ9-OVH-EUR-XPAR,/ovh-ovh-group-sas
 PAR,PAREF,Immobilier,0,FR0010263202,CAC_SMALL,paref-FR0010263202-PAR-EUR-XPAR,/par-paref
-PARRO,Parrot,Technologies,0,FR0004038263,CAC_SMALL,parrot-FR0004038263-PARRO-EUR-XPAR,/parro-parrot
+PARRO,Parrot,Technologies,1,FR0004038263,CAC_SMALL,parrot-FR0004038263-PARRO-EUR-XPAR,/parro-parrot
 RI,Pernod Ricard,Consommation de base,0,FR0000120693,CAC_40,pernod-ricard-FR0000120693-RI-EUR-XPAR,/ri-pernod-ricard-sa
 PERR,Gérard Perrier Industrie,Industrie,1,FR0000061459,CAC_SMALL,gerard-perrier-industrie-FR0000061459-PERR-EUR-XPAR,/perr-perrier-gerard
 PEUG,Peugeot Invest,Finance,0,FR0000064784,CAC_SMALL,peugeot-invest-FR0000064784-PEUG-EUR-XPAR,/peug-peugeot-invest
@@ -166,7 +166,7 @@ DIM,Sartorius Stedim Biotech,Santé,0,FR0013154002,CAC_NEXT_20,sartorius-stedim-
 SU,Schneider Electric SE,Industrie,0,FR0000121972,CAC_40,schneider-electric-se-FR0000121972-SU-EUR-XPAR,/su-schneider-electric-se
 SCR,SCOR SE,Finance,0,FR0010411983,CAC_MID_60,scor-se-FR0010411983-SCR-EUR-XPAR,/scr-scor
 SCHP,Séché Environnement SA,Industrie,1,FR0000039109,CAC_SMALL,seche-environnement-sa-FR0000039109-SCHP-EUR-XPAR,/schp-seche-environnem
-SEFER,SergeFerrari Group,Industrie,0,FR0011950682,CAC_SMALL,sergeferrari-group-FR0011950682-SEFER-EUR-XPAR,/sefer-sergeferrari-group
+SEFER,SergeFerrari Group,Industrie,1,FR0011950682,CAC_SMALL,sergeferrari-group-FR0011950682-SEFER-EUR-XPAR,/sefer-sergeferrari-group
 SRP,SRP Groupe,Consommation discrétionnaire,1,FR0013006558,CAC_SMALL,srp-groupe-FR0013006558-SRP-EUR-XPAR,/srp-showroomprive
 SMCP,SMCP S.A,Consommation discrétionnaire,0,FR0013214145,CAC_SMALL,smcp-s-a-FR0013214145-SMCP-EUR-XPAR,/smcp-smcp
 GLE,Société Générale,Finance,0,FR0000130809,CAC_40,societe-generale-FR0000130809-GLE-EUR-XPAR,/gle-societe-generale
@@ -204,7 +204,7 @@ VRAP,Vranken-Pommery Monopole,Consommation de base,1,FR0000062796,CAC_SMALL,vran
 WAVE,Wavestone,Technologies,1,FR0013357621,CAC_SMALL,wavestone-FR0013357621-WAVE-EUR-XPAR,/wave-wavestone
 MF,Wendel,Finance,0,FR0000121204,CAC_MID_60,wendel-FR0000121204-MF-EUR-XPAR,/mf-wendel
 WLN,Worldline,Technologies,0,FR0011981968,CAC_40,worldline-FR0011981968-WLN-EUR-XPAR,/wln-worldline-sa
-XIL,Xilam Animation,Télécommunications,0,FR0004034072,CAC_SMALL,xilam-animation-FR0004034072-XIL-EUR-XPAR,/xil-xilam-animation
+XIL,Xilam Animation,Télécommunications,1,FR0004034072,CAC_SMALL,xilam-animation-FR0004034072-XIL-EUR-XPAR,/xil-xilam-animation
 AIR,Airbus SE,Industrie,0,NL0000235190,CAC_40,airbus-se-NL0000235190-AIR-EUR-XPAR,/air-airbus-se
 MT,ArcelorMittal,None,0,LU1598757687,CAC_40,arcelormittal-LU1598757687-MT-EUR-XAMS,None
 STLAP,Stellantis N.V.,Consommation discrétionnaire,0,NL00150001Q9,CAC_40,stellantis-n-v-NL00150001Q9-STLAP-EUR-XPAR,/stla-stellantis
@@ -215,4 +215,4 @@ SOLB,Solvay SA,None,0,BE0003470755,CAC_NEXT_20,solvay-sa-BE0003470755-SOLB-EUR-X
 APAM,Aperam S.A.,None,0,LU0569974404,CAC_MID_60,aperam-s-a-LU0569974404-APAM-EUR-XAMS,None
 TE,Technip Energies N.V.,Energie,0,NL0014559478,CAC_MID_60,technip-energies-n-v-NL0014559478-TE-EUR-XPAR,/te-technip-energies
 GNRO,GeNeuro SA,Santé,0,CH0308403085,CAC_SMALL,geneuro-sa-CH0308403085-GNRO-EUR-XPAR,/gnro-geneuro
-XFAB,X-FAB Silicon Foundries SE,Technologies,0,BE0974310428,CAC_SMALL,x-fab-silicon-foundries-se-BE0974310428-XFAB-EUR-XPAR,/xfab-x-fab
+XFAB,X-FAB Silicon Foundries SE,Technologies,1,BE0974310428,CAC_SMALL,x-fab-silicon-foundries-se-BE0974310428-XFAB-EUR-XPAR,/xfab-x-fab
