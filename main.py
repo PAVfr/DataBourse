@@ -125,14 +125,22 @@ class Dividende:
 				ex_dividend = row.get('date_ex_dividend')
 				date_payement = row.get('date_payement')
 				value = row.get('value') if "," in row.get('value') else row.get('value') + ",0"
+				ex_dividend_format: datetime.date = datetime.datetime.strptime(ex_dividend, "%Y-%m-%d").date()
 
 				# Ignore Future Dividende
-				if ignore_future and datetime.date.today() < datetime.datetime.strptime(ex_dividend, "%Y-%m-%d").date():
+				if ignore_future and datetime.date.today() < ex_dividend_format:
 					continue
 
 				# Ajoute la ligne dans la BDD si elle n'existe pas
+				date_inf = ex_dividend_format - datetime.timedelta(days=30)
+				date_sup = ex_dividend_format + datetime.timedelta(days=30)
+
 				if cursor.execute(
-						f"""SELECT * FROM {self.name} WHERE "TICKER"="{ticker}" AND "EX_DIVIDEND"=date("{ex_dividend}") """).fetchone() is None:
+						f"""SELECT * 
+							FROM {self.name} 
+							WHERE "TICKER"="{ticker}" 
+								AND "EX_DIVIDEND">date("{date_inf.strftime("%Y-%m-%d")}") 
+								AND "EX_DIVIDEND"<date("{date_sup.strftime("%Y-%m-%d")}") """).fetchone() is None:
 					cursor.execute(f"""
 						INSERT INTO {self.name} ("TICKER", "EX_DIVIDEND", "DATE_PAYEMENT", "VALUE")
 						VALUES("{ticker}", "{ex_dividend}", "{date_payement}", "{value}")""")
