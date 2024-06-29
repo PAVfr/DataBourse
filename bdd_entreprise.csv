@@ -21,7 +21,7 @@ AMUN,Amundi,Finance,0,FR0004125920,CAC_MID_60,amundi-FR0004125920-AMUN-EUR-XPAR,
 ANTIN,ANTIN INFRASTRUCTURE PARTNERS,Finance,0,FR0014005AL0,CAC_MID_60,antin-infrastructure-partners-FR0014005AL0-ANTIN-EUR-XPAR,/antin-antin-infrastructure-partners
 ARAMI,Aramis Group,Consommation discrétionnaire,0,FR0014003U94,CAC_SMALL,aramis-group-FR0014003U94-ARAMI-EUR-XPAR,/arami-aramis-group
 AKE,Arkema,Matériaux,0,FR0010313833,CAC_NEXT_20,arkema-FR0010313833-AKE-EUR-XPAR,/ake-arkema
-PRC,Artmarket.com,Télécommunications,0,FR0000074783,CAC_SMALL,artmarket-com-FR0000074783-PRC-EUR-XPAR,/prc-artmarket-com
+PRC,Artmarket.com,Télécommunications,1,FR0000074783,CAC_SMALL,artmarket-com-FR0000074783-PRC-EUR-XPAR,/prc-artmarket-com
 ASY,Assystem,Industrie,0,FR0000074148,CAC_SMALL,assystem-FR0000074148-ASY-EUR-XPAR,/asy-assystem-sa
 ATLD,ATLAND,Immobilier,0,FR0013455482,CAC_SMALL,atland-FR0013455482-ATLD-EUR-XPAR,/atld-atland
 ATO,AtoS SE,Technologies,0,FR0000051732,CAC_MID_60,atos-se-FR0000051732-ATO-EUR-XPAR,/ato-atos
@@ -46,7 +46,7 @@ CAFO,Cafom,Consommation discrétionnaire,1,FR0010151589,CAC_SMALL,cafom-FR001015
 CAP,Capgemini SE,Technologies,0,FR0000125338,CAC_40,capgemini-se-FR0000125338-CAP-EUR-XPAR,/cap-capgemini-se
 CARM,CARMILA,Immobilier,0,FR0010828137,CAC_MID_60,carmila-FR0010828137-CARM-EUR-XPAR,/carm-carmila
 CA,Carrefour,Consommation de base,0,FR0000120172,CAC_40,carrefour-FR0000120172-CA-EUR-XPAR,/ca-carrefour
-CO,"Casino, Guichard-Perrachon SA",Consommation de base,0,FR0000125585,CAC_MID_60,casino-guichard-perrachon-sa-FR0000125585-CO-EUR-XPAR,/co-casino-guichard
+CO,"Casino, Guichard-Perrachon SA",Consommation de base,0,FR001400OKR3,CAC_MID_60,casino-guichard-perrachon-sa-FR001400OKR3-CO-EUR-XPAR,/co-casino-guichard
 CATG,Catana Group,Consommation discrétionnaire,1,FR0010193052,CAC_SMALL,catana-group-FR0010193052-CATG-EUR-XPAR,/catg-catana-group
 CBOT,CBO TERRITORIA,Immobilier,1,FR0010193979,CAC_SMALL,cbo-territoria-FR0010193979-CBOT-EUR-XPAR,/cbot-cbo-territoria-sa
 CGM,Cegedim,Santé,0,FR0000053506,CAC_SMALL,cegedim-FR0000053506-CGM-EUR-XPAR,/cgm-cegedim
