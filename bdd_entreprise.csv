@@ -75,10 +75,10 @@ ES,Esso S.A.F.,Energie,0,FR0000120669,CAC_SMALL,esso-s-a-f-FR0000120669-ES-EUR-X
 RF,Eurazeo SE,Finance,0,FR0000121121,CAC_MID_60,eurazeo-se-FR0000121121-RF-EUR-XPAR,/rf-eurazeo
 EAPI,EUROAPI,Santé,0,FR0014008VX5,CAC_MID_60,euroapi-FR0014008VX5-EAPI-EUR-XPAR,/eapi-euroapi-sa
 ERF,Eurofins Scientific SE,Santé,0,FR0014000MR3,CAC_40,eurofins-scientific-se-FR0014000MR3-ERF-EUR-XPAR,/erf-eurofins-scient
-ETL,Eutelsat Communications,Technologies,1,FR0010221234,CAC_MID_60,eutelsat-communications-FR0010221234-ETL-EUR-XPAR,/etl-eutelsat-communication
+ETL,Eutelsat Communications,None,1,FR0010221234,CAC_MID_60,eutelsat-communications-FR0010221234-ETL-EUR-XPAR,None
 EXA,Exail Technologies,Industrie,1,FR0000062671,CAC_SMALL,exail-technologies-FR0000062671-EXA-EUR-XPAR,/exa-exail-technologies
 FNAC,Fnac Darty,Consommation discrétionnaire,0,FR0011476928,CAC_MID_60,fnac-darty-FR0011476928-FNAC-EUR-XPAR,/fnac-fnac-darty
-FORSE,Forsee Power,Industrie,1,FR0014005SB3,CAC_SMALL,forsee-power-FR0014005SB3-FORSE-EUR-XPAR,/forse-forsee-power
+FORSE,Forsee Power,Industrie,0,FR0014005SB3,CAC_SMALL,forsee-power-FR0014005SB3-FORSE-EUR-XPAR,/forse-forsee-power
 FRVIA,Forvia,Consommation discrétionnaire,0,FR0000121147,CAC_NEXT_20,forvia-se-FR0000121147-FRVIA-EUR-XPAR,/frvia-forvia
 FDE,La Française de l'Energie,Energie,1,FR0013030152,CAC_SMALL,la-francaise-de-l-energie-FR0013030152-FDE-EUR-XPAR,/fde-francaise-energie
 GFC,GECINA,Immobilier,0,FR0010040865,CAC_NEXT_20,gecina-FR0010040865-GFC-EUR-XPAR,/gfc-gecina-nom
@@ -140,7 +140,7 @@ NXI,Nexity,Immobilier,0,FR0010112524,CAC_MID_60,nexity-FR0010112524-NXI-EUR-XPAR
 ORA,Orange,Télécommunications,0,FR0000133308,CAC_40,orange-FR0000133308-ORA-EUR-XPAR,/ora-orange
 ORAP,ORAPI,Matériaux,1,FR0000075392,CAC_SMALL,orapi-FR0000075392-ORAP-EUR-XPAR,/orap-orapi
 OREGE,Orège,Industrie,1,FR0010609206,CAC_SMALL,orege-FR0010609206-OREGE-EUR-XPAR,/orege-orege
-ORP,Emeis (ex-Orpea),Santé,0,FR001400NLM4,CAC_MID_60,orpea-FR001400NLM4-ORP-EUR-XPAR,/orp-orpea
+EMEIS,Emeis (ex-Orpea),Santé,0,FR001400NLM4,CAC_MID_60,orpea-FR001400NLM4-ORP-EUR-XPAR,/orp-orpea
 OSE,OSE Immunotherapeutics,Santé,1,FR0012127173,CAC_SMALL,ose-immunotherapeutics-FR0012127173-OSE-EUR-XPAR,/ose-ose-immuno
 OVH,OVH Groupe,Technologies,1,FR0014005HJ9,CAC_SMALL,ovh-groupe-FR0014005HJ9-OVH-EUR-XPAR,/ovh-ovh-group-sas
 PAR,PAREF,Immobilier,0,FR0010263202,CAC_SMALL,paref-FR0010263202-PAR-EUR-XPAR,/par-paref
