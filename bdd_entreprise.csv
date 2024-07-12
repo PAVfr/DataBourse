@@ -75,10 +75,10 @@ ES,Esso S.A.F.,Energie,0,FR0000120669,CAC_SMALL,esso-s-a-f-FR0000120669-ES-EUR-X
 RF,Eurazeo SE,Finance,0,FR0000121121,CAC_MID_60,eurazeo-se-FR0000121121-RF-EUR-XPAR,/rf-eurazeo
 EAPI,EUROAPI,Santé,0,FR0014008VX5,CAC_MID_60,euroapi-FR0014008VX5-EAPI-EUR-XPAR,/eapi-euroapi-sa
 ERF,Eurofins Scientific SE,Santé,0,FR0014000MR3,CAC_40,eurofins-scientific-se-FR0014000MR3-ERF-EUR-XPAR,/erf-eurofins-scient
-ETL,Eutelsat Communications,None,1,FR0010221234,CAC_MID_60,eutelsat-communications-FR0010221234-ETL-EUR-XPAR,None
+ETL,Eutelsat Communications,Technologies,1,FR0010221234,CAC_MID_60,eutelsat-communications-FR0010221234-ETL-EUR-XPAR,/etl-eutelsat-communication
 EXA,Exail Technologies,Industrie,1,FR0000062671,CAC_SMALL,exail-technologies-FR0000062671-EXA-EUR-XPAR,/exa-exail-technologies
 FNAC,Fnac Darty,Consommation discrétionnaire,0,FR0011476928,CAC_MID_60,fnac-darty-FR0011476928-FNAC-EUR-XPAR,/fnac-fnac-darty
-FORSE,Forsee Power,Industrie,0,FR0014005SB3,CAC_SMALL,forsee-power-FR0014005SB3-FORSE-EUR-XPAR,/forse-forsee-power
+FORSE,Forsee Power,Industrie,1,FR0014005SB3,CAC_SMALL,forsee-power-FR0014005SB3-FORSE-EUR-XPAR,/forse-forsee-power
 FRVIA,Forvia,Consommation discrétionnaire,0,FR0000121147,CAC_NEXT_20,forvia-se-FR0000121147-FRVIA-EUR-XPAR,/frvia-forvia
 FDE,La Française de l'Energie,Energie,1,FR0013030152,CAC_SMALL,la-francaise-de-l-energie-FR0013030152-FDE-EUR-XPAR,/fde-francaise-energie
 GFC,GECINA,Immobilier,0,FR0010040865,CAC_NEXT_20,gecina-FR0010040865-GFC-EUR-XPAR,/gfc-gecina-nom
